@@ -61,7 +61,7 @@ In this screenshot, I’m signing into one of the Operations users’ accounts t
 In this screenshot, we see the Conditional Access policy successfully blocking Ava Martinez (an Operations user) from signing in because her device is not compliant. The sign-in logs show error 530003, which indicates that access is denied due to the device not being managed by an approved MDM solution such as Intune. This confirms that the “Require device to be marked as compliant” control is working as expected.
 
 
-# In Conclusion
+# Conclusion
 
 
 This lab demonstrates how Conditional Access strengthens a Zero Trust security posture by allowing only Intune-enrolled, compliant devices to access cloud resources. It shows my ability to design, implement, validate, and troubleshoot real-world IAM policies in Microsoft Entra ID.
