@@ -65,6 +65,6 @@ In this screenshot, Daniel from the IT department attempts to sign in and is imm
 
 In this screenshot, Daniel is required to install the Microsoft Authenticator app because the MFA policy is enforcing setup. Since he hasn’t registered MFA yet, the system guides him to complete the setup before allowing access.
 
-# In conclusion 
+# Conclusion 
 
 This lab demonstrates my ability to design and implement secure identity controls in Microsoft Entra ID. By using a dynamic group, applying MFA through Conditional Access, and following best practices like break-glass exclusions, I showed how to strengthen access security for high-privilege users. This is a fundamental skill in IAM and a core part of building a Zero Trust environment.
