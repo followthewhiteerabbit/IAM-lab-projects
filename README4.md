@@ -23,21 +23,23 @@ In this lab, I configured a Conditional Access policy in Microsoft Entra ID to r
 
 ### **Screenshot 1 – Policy Creation & User Scope**
 
-Created a new Conditional Access policy named **CA-SignInRisk-RequireMFA** and configured it to apply to **all users**, while excluding specific accounts such as break-glass or emergency admin accounts to prevent tenant lockout.
+Created a new Conditional Access policy named CA-SignInRisk-RequireMFA and configured it to apply to all users as the baseline assignment scope.
+
 
 <img width="2286" height="1606" alt="1" src="https://github.com/user-attachments/assets/4ae88502-7c8f-4841-8b22-465c7bab4e75" />
 
 
-### **Screenshot 2 – Target Resources**
+### **Screenshot 2 – User Exclusions (Break-Glass & Test Account)**
 
-Set **Target resources** to **All resources (formerly “All cloud apps”)**, ensuring the policy applies across the entire tenant and protects access to all applications and services.
+Configured user exclusions by excluding the break-glass admin account and a test user account. This ensures emergency administrative access is preserved and allows safe validation of the policy without risking tenant lockout.
 
 <img width="2284" height="1606" alt="2" src="https://github.com/user-attachments/assets/e17a7bb7-6cb0-41ab-b16d-d816042fa254" />
 
 
-### **Screenshot 3 – User Exclusions**
+### **Screenshot 3 – Target Resources**
 
-Verified excluded users, including the break-glass admin account and my test account, to safely test the policy while maintaining emergency access if needed.
+Set Target resources to All resources (formerly “All cloud apps”), ensuring the policy applies tenant-wide and protects access to all applications and services.
+
 
 <img width="2284" height="1612" alt="3" src="https://github.com/user-attachments/assets/d969c9b8-eb80-431f-9a42-aed41adda045" />
 
