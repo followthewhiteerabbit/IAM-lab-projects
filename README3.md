@@ -1,6 +1,6 @@
 # Block Legacy Authentication Using Conditional Access 
 
-## Overview
+# Objective
 
 In this lab, I configured a Conditional Access policy in Microsoft Entra ID to block legacy authentication methods. Legacy authentication does not support modern security controls such as MFA, making it a common attack vector for credential-based attacks like password spray and brute force attempts.
 
