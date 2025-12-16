@@ -8,7 +8,7 @@ In this lab, I configured a Conditional Access policy in Microsoft Entra ID to r
 
 ---
 
-## Skills Used
+## Skills Demonstrated
 
 * Microsoft Entra ID (Azure AD)
 * Conditional Access policy configuration
