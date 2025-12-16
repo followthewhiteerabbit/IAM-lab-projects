@@ -42,8 +42,14 @@ This screenshot shows the creation of a Conditional Access policy named CA-UserR
 <img width="2290" height="1610" alt="Screenshot 2025-12-14 at 11 32 14 PM" src="https://github.com/user-attachments/assets/88fa44eb-8eb0-4e04-802c-afc6dc2e6b5d" />
 
 
+**Screenshot 2 – User Scope and Exclusions (Break-Glass Protection)**
 
-**Screenshot 2 – Target Resources Set to All Resources**
+This screenshot shows All users included, with specific exclusions configured. The break-glass administrator account and a test user are excluded to prevent administrative lockout and allow safe testing. This reflects real-world operational best practices when deploying high-impact Conditional Access policies.
+
+<img width="2294" height="1608" alt="Untitled design (1)" src="https://github.com/user-attachments/assets/f4e99cb0-aaf1-45d3-8db3-1fa7ccc0dbaf" />
+
+
+**Screenshot 3 – Target Resources Set to All Resources**
 
 In this screenshot, the policy is configured to apply to All resources (formerly “All cloud apps”). This is required because the Require password change control can only be enforced when all resources are targeted. Applying the policy tenant-wide ensures that a compromised user cannot bypass remediation by accessing a different application.
 
@@ -52,23 +58,23 @@ In this screenshot, the policy is configured to apply to All resources (formerly
 <img width="2276" height="1610" alt="Screenshot 2025-12-14 at 11 32 43 PM" src="https://github.com/user-attachments/assets/c0f8f11e-14c1-4ae8-8972-70d6bbc37eb4" />
 
 
+**Screenshot 4 - User risk configuration**
 
-**Screenshot 3 – User Scope and Exclusions (Break-Glass Protection)**
+This screenshot shows the User risk condition set to Medium and High, ensuring the policy only triggers when Microsoft Entra detects elevated risk.
 
-This screenshot shows All users included, with specific exclusions configured. The break-glass administrator account and a test user are excluded to prevent administrative lockout and allow safe testing. This reflects real-world operational best practices when deploying high-impact Conditional Access policies.
+<img width="3024" height="1606" alt="Untitled design" src="https://github.com/user-attachments/assets/8e54e8c4-6994-41b2-8227-6dd2862a4f4e" />
 
 
-<img width="2294" height="1608" alt="Untitled design (1)" src="https://github.com/user-attachments/assets/f4e99cb0-aaf1-45d3-8db3-1fa7ccc0dbaf" />
+**Screenshot 5 – Grant Access with MFA Grant Controls Selection (Password Reset Remediation)**
 
-**Screenshot 4 – Grant Controls Configuration (Password Change Enforcement)**
+MFA is shown here because Microsoft Entra requires strong authentication before allowing a password reset. When a user is flagged as high risk, MFA verifies the user’s identity first. After successful verification, the policy then forces a password change to remediate the risk.
 
-Here, the Grant control is configured with Require password change. This control forces users identified as high risk to reset their password before regaining access. Microsoft Entra automatically lowers the user risk level once the password reset is completed, allowing access to resume securely.
 
 <img width="3024" height="1608" alt="Untitled design (3)" src="https://github.com/user-attachments/assets/e2e751f3-c324-4204-b7f5-5366d79bb928" />
 
-**Screenshot 5 – Grant Controls Configured with Password Reset (Policy in Report-Only Mode)**
+**Screenshot 6 – Force Password Reset to Remediate User Risk**
 
-This screenshot shows the final Conditional Access configuration where the Grant control is set to “Require password change” and the policy is enabled in Report-only mode. This confirms that users identified as high risk would be forced to reset their password, while report-only mode allows administrators to safely observe policy behavior and validate detections before enforcing the control in production.
+This screenshot shows the Require password change control enabled. After MFA verification, the user is forced to reset their password, which remediates the risk by invalidating potentially compromised credentials before access is fully restored.
 
 
 <img width="3024" height="1610" alt="Untitled design" src="https://github.com/user-attachments/assets/683db89a-2e90-4d3e-a51d-4f5c4a60fa2a" />
