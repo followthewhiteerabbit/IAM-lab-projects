@@ -6,7 +6,7 @@
 The objective of this lab is to configure a Conditional Access policy in Microsoft Entra ID that automatically forces a password reset when a user is identified as high risk. Using Identity Protection risk signals, this policy demonstrates how organizations can rapidly remediate potentially compromised accounts, reduce account takeover risk, and enforce Zero Trust identity controls while validating the policy safely in report-only mode.
 
 ---
-## Skills Used
+## Skills Demonstrated
 
 - Microsoft Entra ID (Azure AD)
 
