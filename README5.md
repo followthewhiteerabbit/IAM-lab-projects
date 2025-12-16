@@ -1,32 +1,32 @@
 ## **Require Password Reset for High-Risk Users Using Conditional Access**
 
 ---
-**Objective**
+## Objective
 
 The objective of this lab is to configure a Conditional Access policy in Microsoft Entra ID that automatically forces a password reset when a user is identified as high risk. Using Identity Protection risk signals, this policy demonstrates how organizations can rapidly remediate potentially compromised accounts, reduce account takeover risk, and enforce Zero Trust identity controls while validating the policy safely in report-only mode.
 
-----
-**Skills Used**
+---
+## Skills Used
 
--Microsoft Entra ID (Azure AD)
+- Microsoft Entra ID (Azure AD)
 
--Conditional Access policy design
+- Conditional Access policy design
 
--Identity Protection (User Risk detection)
+- Identity Protection (User Risk detection)
 
--Risk-based access control
+- Risk-based access control
 
--Automated password reset enforcement
+- Automated password reset enforcement
 
--Break-glass account protection
+- Break-glass account protection
 
--Report-only policy validation
+- Report-only policy validation
 
--Incident response and account remediation
+- Incident response and account remediation
 
--Zero Trust identity security principles
+- Zero Trust identity security principles
 
--Enterprise IAM best practices
+- Enterprise IAM best practices
 
 
 ---
@@ -66,9 +66,10 @@ Here, the Grant control is configured with Require password change. This control
 
 <img width="3024" height="1608" alt="Untitled design (3)" src="https://github.com/user-attachments/assets/e2e751f3-c324-4204-b7f5-5366d79bb928" />
 
-**Screenshot 5 – Policy Enabled in Report-Only Mode**
+**Screenshot 5 – Grant Controls Configured with Password Reset (Policy in Report-Only Mode)**
 
-This screenshot shows the policy enabled in Report-only mode. Report-only mode allows administrators to validate how the policy would behave in production without impacting users. This step is critical for verifying detections, minimizing false positives, and safely transitioning the policy to enforcement.
+This screenshot shows the final Conditional Access configuration where the Grant control is set to “Require password change” and the policy is enabled in Report-only mode. This confirms that users identified as high risk would be forced to reset their password, while report-only mode allows administrators to safely observe policy behavior and validate detections before enforcing the control in production.
+
 
 <img width="3024" height="1610" alt="Untitled design" src="https://github.com/user-attachments/assets/683db89a-2e90-4d3e-a51d-4f5c4a60fa2a" />
 
