@@ -1,6 +1,6 @@
 # Require Compliant Device Policy 
 
-# Lab Goal / Objective
+# Objective
 
 This lab demonstrates how I enforced a Conditional Access policy in Microsoft Entra ID that blocks access to Office 365 from any device that isn’t Intune-managed and compliant. I used a dynamic group for the Operations department, applied device-based conditions across all platforms, and validated the policy by testing a real user sign-in, confirming that unmanaged devices are denied access. This shows my ability to design, implement, and troubleshoot Zero Trust access controls in a real environment.
 
