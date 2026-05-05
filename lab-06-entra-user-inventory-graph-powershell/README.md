@@ -23,7 +23,6 @@ In this lab, I used Microsoft Graph PowerShell to connect to a Microsoft Entra I
 - Microsoft Graph PowerShell SDK
 - Microsoft Entra ID (Azure AD)
 - Identity auditing and user inventory
-- Principle of least privilege (scoped API permissions)
 - PowerShell scripting for IAM automation
 - Access review preparation
 ---
