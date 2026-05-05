@@ -2,6 +2,10 @@
 
 # Automating Entra ID User Inventory with Microsoft Graph PowerShell
 
+| Difficulty | Estimated Time | SC-300 Objective |
+|------------|---------------|------------------|
+| Beginner | 30 minutes | Manage identities in Microsoft Entra ID |
+
 ---
 
 # Lab Overview
@@ -35,13 +39,21 @@ In this lab, I used Microsoft Graph PowerShell to connect to a Microsoft Entra I
 
           <img width="2884" height="1822" alt="1" src="https://github.com/user-attachments/assets/68ee65cb-17e6-4a6f-9c86-57d196a5ba38" />
 
-          **Screenshot 2 — Exporting the User Inventory to CSV**
+          **Screenshot 2 — Exporting User Inventory to CSV**
 
-          Get-MgUser -All retrieves every user in the tenant and pipes the results into Select-Object to limit output to DisplayName and UserPrincipalName only — avoiding unnecessary data collection. The -NoTypeInformation flag keeps the CSV clean by removing the PowerShell type header. Test-Path returning True confirms the file was successfully written to C:\users_report.csv.
+          After authenticating to the tenant, I ran Get-MgUser -All piped into Select-Object DisplayName, UserPrincipalName and exported the results to C:\users_report.csv using Export-Csv -NoTypeInformation. Running Test-Path "C:\users_report.csv" returned True, confirming the file was successfully created and written to disk.
 
           <img width="2880" height="1658" alt="2" src="https://github.com/user-attachments/assets/e01417b8-60b2-457f-9b03-ff86c5065963" />
 
+          **Screenshot 3 — Opening the CSV File**
+
+          I ran Invoke-Item "C:\users_report.csv" to open the exported file in the default application. This step confirms the file is accessible, properly formatted, and ready for review or handoff as part of an access audit.
+
           <img width="2880" height="1656" alt="3" src="https://github.com/user-attachments/assets/8c55728c-5894-42d1-918a-4e71ea9265d6" />
+
+          **Screenshot 4 — Reviewing the User Inventory Output**
+
+          The exported CSV displays 20 users from the tenant, including named employee accounts, department test accounts (HR.Test, IT.Test, Finance.Test, Operations.Test), a Break Glass Admin account, and one B2B guest user identifiable by the #EXT# suffix in the UPN. Notably, one account named Contractors.Tets appears to be a typo — a data quality finding that would be flagged for remediation in a real access review.
 
           <img width="2882" height="1654" alt="4" src="https://github.com/user-attachments/assets/a5854a85-a2b9-4339-b288-34942e9cdc41" />
 
