@@ -1,3 +1,5 @@
+** Microsoft Graph PowerShell – Entra ID User Inventory **
+
 
 <img width="2884" height="1822" alt="1" src="https://github.com/user-attachments/assets/68ee65cb-17e6-4a6f-9c86-57d196a5ba38" />
 
