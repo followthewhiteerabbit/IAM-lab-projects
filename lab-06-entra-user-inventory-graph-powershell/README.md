@@ -2,9 +2,7 @@
 
 # Automating Entra ID User Inventory with Microsoft Graph PowerShell
 
-| Difficulty | Estimated Time | SC-300 Objective |
-|------------|---------------|------------------|
-| Beginner | 30 minutes | Manage identities in Microsoft Entra ID |
+
 
 ---
 
