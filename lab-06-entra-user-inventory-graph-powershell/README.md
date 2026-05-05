@@ -1,5 +1,12 @@
 **Automating Entra ID User Inventory with Microsoft Graph PowerShell**
 
+**Screenshot 1 — Connecting to Microsoft Graph**
+
+Note: Tenant ID has been redacted for security purposes.
+
+Using Connect-MgGraph -Scopes "User.Read.All" to authenticate to the Entra ID tenant. The -Scopes parameter requests only the permissions needed for this task — User.Read.All is the appropriate scope for a read-only audit, following the principle of least privilege. Using User.ReadWrite.All in this context would be over-permissioned since no write operations are performed.
+
+
 
 <img width="2884" height="1822" alt="1" src="https://github.com/user-attachments/assets/68ee65cb-17e6-4a6f-9c86-57d196a5ba38" />
 
