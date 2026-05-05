@@ -56,4 +56,4 @@ The exported CSV displays 20 users from the tenant, including named employee acc
 
 # Conclusion
 
-This lab demonstrates my ability to use Microsoft Graph PowerShell to programmatically audit user identities in Microsoft Entra ID. By scoping permissions to User.Read.All and exporting only the fields needed, I applied the principle of least privilege while producing a clean, usable inventory. This is a foundational skill in IAM engineering and a practical first step in any access review or tenant onboarding process.
+This lab demonstrates my ability to use Microsoft Graph PowerShell to programmatically audit user identities in Microsoft Entra ID. By scoping permissions to User.Read.All and exporting only the fields needed. User.ReadWrite.All was used here for lab flexibility, but the correct least-privilege scope for a read-only operation is User.Read.All — granting write permissions when only read is needed violates least privilege and unnecessarily expands the attack surface in a production environment.
