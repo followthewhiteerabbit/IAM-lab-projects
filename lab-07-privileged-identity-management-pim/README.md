@@ -114,7 +114,7 @@ Justification is required to maintain a clear audit trail of why access was gran
 
 ---
 
-### Screenshot 14 — Assignment Tab Settings
+### Screenshot 8 — Assignment Tab Settings
 
 <img width="3024" height="1576" alt="14 BLUR" src="https://github.com/user-attachments/assets/26e7f3ca-bd13-4823-a0d8-8f4eba2081e6" />
 
@@ -130,7 +130,7 @@ The annual review cadence and 6-month active expiration ensure access is regular
 
 ---
 
-### Screenshot 15 — Notification Tab
+### Screenshot 9 — Notification Tab
 
 <img width="3024" height="1584" alt="15 BLUR" src="https://github.com/user-attachments/assets/b5e15200-76a1-43b2-9873-089e6066e749" />
 
@@ -145,7 +145,7 @@ This supports governance and compliance by ensuring the security team is always 
 
 ---
 
-### Screenshot 16 — Authenticator MFA Setup
+### Screenshot 10 — Authenticator MFA Setup
 
 <img width="3024" height="1600" alt="16 BLUR" src="https://github.com/user-attachments/assets/981ec6ef-8d1d-4a45-881f-862a120492ff" />
 
@@ -153,7 +153,7 @@ Before Emma could activate her PIM role, **MFA registration was required**. Micr
 
 ---
 
-### Screenshot 18 — Emma's Eligible Assignments
+### Screenshot 11 — Emma's Eligible Assignments
 
 <img width="3024" height="1678" alt="18" src="https://github.com/user-attachments/assets/8d257316-3b8d-4de3-8a0c-4cd71c8a0e39" />
 
@@ -164,7 +164,7 @@ No standing privileges exist — Emma must click **Activate** to request Just-in
 
 ---
 
-### Screenshot 19 — Activation Request + Justification
+### Screenshot 12 — Activation Request + Justification
 
 
 <img width="3024" height="1682" alt="19 BLUR" src="https://github.com/user-attachments/assets/dae549a8-763c-4419-a3d4-a40c654f6b1b" />
@@ -178,7 +178,7 @@ Emma initiates role activation by clicking **Activate** on the Security Reader e
 
 ---
 
-### Screenshot 21 — All Activation Stages Complete
+### Screenshot 13 — All Activation Stages Complete
 
 <img width="3024" height="1680" alt="21 BLUR" src="https://github.com/user-attachments/assets/15095fb5-9eae-4d5a-b6af-84f5cbedf6f7" />
 
@@ -195,7 +195,7 @@ Confirms the Just-in-Time activation workflow completed successfully for Emma Ro
 
 ---
 
-### Screenshot 22 — Active Assignments Confirmed
+### Screenshot 14 — Active Assignments Confirmed
 
 <img width="3024" height="1592" alt="22 BLUR" src="https://github.com/user-attachments/assets/5c1daa00-cfdc-4543-af0e-797c53d34e97" />
 
@@ -212,7 +212,7 @@ Confirms time-bound JIT access is working correctly.
 
 ---
 
-### Screenshot 23 — Audit History
+### Screenshot 15 — Audit History
 
 <img width="3024" height="1580" alt="23 BLUR" src="https://github.com/user-attachments/assets/315da0d1-a0dd-41dd-ab0a-c005c62eaba2" />
 
