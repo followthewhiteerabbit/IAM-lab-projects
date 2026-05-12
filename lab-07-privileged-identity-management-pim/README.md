@@ -1,3 +1,5 @@
+<img width="3024" height="1582" alt="2 blur" src="https://github.com/user-attachments/assets/8678e4ce-9643-4418-9358-654b2cb70dca" />
+<img width="3024" height="1582" alt="2 blur" src="https://github.com/user-attachments/assets/2160f276-9220-44d5-a0f3-15bc6d76d688" />
 # Lab: Configuring Privileged Identity Management (PIM) in Microsoft Entra ID
 
 ![Microsoft Entra ID](https://img.shields.io/badge/Microsoft%20Entra%20ID-P2-blue?logo=microsoft)
@@ -46,7 +48,8 @@ PIM is a Microsoft Entra ID P2 feature that enforces Just-in-Time access to priv
 
 ### Screenshot 2 — Microsoft Entra Roles
 
-![Screenshot 2](screenshots/2.png)
+<img width="3024" height="1582" alt="2 blur" src="https://github.com/user-attachments/assets/6cc5f7e7-ef86-4a28-b7c4-5645e216732a" />
+
 
 The **PIM Microsoft Entra roles Quick Start** page for the Salient Cloud tenant. Shows the 4 core PIM functions: **Assign**, **Activate**, **Approve**, and **Audit**.
 
@@ -56,7 +59,8 @@ This is the control center for managing privileged access — ensuring no user h
 
 ### Screenshot 3 — My Roles / Eligible Assignments
 
-![Screenshot 3](screenshots/3.png)
+<img width="3024" height="1584" alt="3 blur" src="https://github.com/user-attachments/assets/83eabd1f-1b15-47d3-9fae-7769671319ea" />
+
 
 Before configuring PIM role assignments, I first assigned myself the **Privileged Role Administrator** role as an eligible assignment. This role grants the ability to manage PIM configurations while following least privilege — using a scoped role instead of Global Administrator.
 
@@ -64,7 +68,8 @@ Before configuring PIM role assignments, I first assigned myself the **Privilege
 
 ### Screenshot 4 — Search Security Reader
 
-![Screenshot 4](screenshots/4.png)
+<img width="3024" height="1584" alt="4 blur " src="https://github.com/user-attachments/assets/391e2c33-87d0-4e82-8d2a-41370dd6afd8" />
+
 
 Inside **PIM → Microsoft Entra roles → Roles**, I searched for the **Security Reader** role to configure it for assignment.
 
@@ -74,7 +79,8 @@ Security Reader provides global read-only access across Microsoft Entra and Iden
 
 ### Screenshot 5 — Select Emma Rodriguez
 
-![Screenshot 5](screenshots/5.png)
+<img width="3024" height="1586" alt="5 blur" src="https://github.com/user-attachments/assets/459ff715-4454-4aee-a445-eb55c558b7de" />
+
 
 Inside **PIM → Add assignments**, I selected **Emma Rodriguez** (HR employee) as the member to assign the Security Reader role to.
 
@@ -84,7 +90,8 @@ Emma was chosen to simulate a real-world scenario where an HR team member requir
 
 ### Screenshot 6 — Role Assignment Configuration
 
-![Screenshot 6](screenshots/6.png)
+<img width="3024" height="1588" alt="6 BLUR" src="https://github.com/user-attachments/assets/725f58ec-f80a-4144-8dc3-ffd7e9c42c87" />
+
 
 - **Role:** Security Reader
 - **Member:** Emma Rodriguez
@@ -97,7 +104,8 @@ By setting the assignment to **Eligible**, Emma must activate through PIM when a
 
 ### Screenshot 7 — Assignment Settings
 
-![Screenshot 7](screenshots/7.png)
+<img width="3022" height="1582" alt="7 BLUR" src="https://github.com/user-attachments/assets/6bd06ff3-df89-43f3-a6e8-ef77804560cf" />
+
 
 - **Assignment type:** Active
 - **Start date:** 05/10/2026
@@ -109,7 +117,8 @@ Justification is required to maintain a clear audit trail of why access was gran
 
 ### Screenshot 14 — Assignment Tab Settings
 
-![Screenshot 14](screenshots/14.png)
+<img width="3024" height="1576" alt="14 BLUR" src="https://github.com/user-attachments/assets/26e7f3ca-bd13-4823-a0d8-8f4eba2081e6" />
+
 
 | Setting | Value |
 |---------|-------|
@@ -124,7 +133,8 @@ The annual review cadence and 6-month active expiration ensure access is regular
 
 ### Screenshot 15 — Notification Tab
 
-![Screenshot 15](screenshots/15.png)
+<img width="3024" height="1584" alt="15 BLUR" src="https://github.com/user-attachments/assets/b5e15200-76a1-43b2-9873-089e6066e749" />
+
 
 Notification settings ensure full visibility into role activity:
 
@@ -138,7 +148,7 @@ This supports governance and compliance by ensuring the security team is always 
 
 ### Screenshot 16 — Authenticator MFA Setup
 
-![Screenshot 16](screenshots/16.png)
+<img width="3024" height="1600" alt="16 BLUR" src="https://github.com/user-attachments/assets/981ec6ef-8d1d-4a45-881f-862a120492ff" />
 
 Before Emma could activate her PIM role, **MFA registration was required**. Microsoft Authenticator was successfully added to Emma's account — confirming she can complete MFA verification during role activation as configured in the role settings.
 
@@ -146,7 +156,8 @@ Before Emma could activate her PIM role, **MFA registration was required**. Micr
 
 ### Screenshot 18 — Emma's Eligible Assignments
 
-![Screenshot 18](screenshots/18.png)
+<img width="3024" height="1678" alt="18" src="https://github.com/user-attachments/assets/8d257316-3b8d-4de3-8a0c-4cd71c8a0e39" />
+
 
 Signed in as **Emma Rodriguez**, **PIM → My roles → Eligible assignments** shows the **Security Reader** role is available to activate for the Salient Cloud tenant.
 
@@ -156,7 +167,9 @@ No standing privileges exist — Emma must click **Activate** to request Just-in
 
 ### Screenshot 19 — Activation Request + Justification
 
-![Screenshot 19](screenshots/19.png)
+
+<img width="3024" height="1682" alt="19 BLUR" src="https://github.com/user-attachments/assets/dae549a8-763c-4419-a3d4-a40c654f6b1b" />
+
 
 Emma initiates role activation by clicking **Activate** on the Security Reader eligible assignment. A justification is required before activation can proceed:
 
@@ -168,7 +181,8 @@ Emma initiates role activation by clicking **Activate** on the Security Reader e
 
 ### Screenshot 21 — All Activation Stages Complete
 
-![Screenshot 21](screenshots/21.png)
+<img width="3024" height="1680" alt="21 BLUR" src="https://github.com/user-attachments/assets/15095fb5-9eae-4d5a-b6af-84f5cbedf6f7" />
+
 
 PIM processes the activation request through **3 stages** — all completed successfully:
 
@@ -184,7 +198,8 @@ Confirms the Just-in-Time activation workflow completed successfully for Emma Ro
 
 ### Screenshot 22 — Active Assignments Confirmed
 
-![Screenshot 22](screenshots/22.png)
+<img width="3024" height="1592" alt="22 BLUR" src="https://github.com/user-attachments/assets/5c1daa00-cfdc-4543-af0e-797c53d34e97" />
+
 
 Back in the admin portal, **PIM → Assignments → Active assignments** confirms:
 
@@ -200,7 +215,8 @@ Confirms time-bound JIT access is working correctly.
 
 ### Screenshot 23 — Audit History
 
-![Screenshot 23](screenshots/23.png)
+<img width="3024" height="1580" alt="23 BLUR" src="https://github.com/user-attachments/assets/315da0d1-a0dd-41dd-ab0a-c005c62eaba2" />
+
 
 The **PIM Resource audit log** shows the complete activity trail for this lab:
 
