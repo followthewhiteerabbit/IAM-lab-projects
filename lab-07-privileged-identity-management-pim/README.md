@@ -1,5 +1,4 @@
-<img width="3024" height="1582" alt="2 blur" src="https://github.com/user-attachments/assets/8678e4ce-9643-4418-9358-654b2cb70dca" />
-<img width="3024" height="1582" alt="2 blur" src="https://github.com/user-attachments/assets/2160f276-9220-44d5-a0f3-15bc6d76d688" />
+
 # Lab: Configuring Privileged Identity Management (PIM) in Microsoft Entra ID
 
 ![Microsoft Entra ID](https://img.shields.io/badge/Microsoft%20Entra%20ID-P2-blue?logo=microsoft)
