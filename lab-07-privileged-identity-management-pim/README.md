@@ -35,7 +35,8 @@ Rather than granting permanent role assignments that sit dormant and create unne
 
 ### Screenshot 1 — PIM Overview
 
-![Screenshot 1](screenshots/1.png)
+<img width="3024" height="1584" alt="1 blur" src="https://github.com/user-attachments/assets/e106eadb-39a7-493b-89f1-b1f52dd1a6cc" />
+
 
 The **Privileged Identity Management (PIM) Quick Start** page inside the Microsoft Entra admin center. Shows the three core capabilities: **Manage access**, **Activate just in time**, and **Discover and monitor**.
 
